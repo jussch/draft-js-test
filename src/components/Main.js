@@ -3,11 +3,13 @@
  */
 
 import React, { Component } from 'react';
+import EditorContainer from './EditorContainer';
 
 class Main extends Component {
   render() {
     return (
       <div>
+        <EditorContainer {...this.props} />
       </div>
     );
   }

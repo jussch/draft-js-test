@@ -1,0 +1,16 @@
+@import './colors';
+
+.editor {
+  border: 1px solid #333;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 5px;
+  background: $kennedy;
+  color: #fff;
+}

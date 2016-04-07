@@ -10,6 +10,7 @@ import React, {
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import Main from '../components/Main';
+import { editorOnChange } from '../actions/editor';
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   const actions = {
+    editorOnChange,
   };
 
   return { actions: bindActionCreators(actions, dispatch) };

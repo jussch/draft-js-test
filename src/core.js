@@ -2,6 +2,7 @@
  * Created by Justin on 2016-03-18.
  */
 require('./styles/reset.scss');
+require('draft-js/dist/Draft.css');
 
 import React from 'react';
 import { render } from 'react-dom';
