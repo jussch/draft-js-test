@@ -1,12 +1,14 @@
 {
   "parser": "babel-eslint",
-  "extends": "airbnb/base",
+  "extends": "airbnb",
   "plugins": [
     "react"
   ],
-  "ecmaFeatures": {
-    "jsx": true,
-    "modules": true
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
   },
   "rules": {
     "no-use-before-define": "off",

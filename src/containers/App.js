@@ -1,3 +1,4 @@
+/* eslint react/prefer-stateless-function: 0 */
 /**
  * Created by Justin on 2016-03-18.
  */
@@ -13,7 +14,7 @@ import Main from '../components/Main';
 class App extends Component {
   render() {
     return (
-      <Main {...this.props}/>
+      <Main {...this.props} />
     );
   }
 }

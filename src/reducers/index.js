@@ -3,9 +3,10 @@
  */
 
 import { combineReducers } from 'redux';
+import editorReducer from './editor';
 
 const reducers = {
-
+  editor: editorReducer,
 };
 
 module.exports = combineReducers(reducers);
