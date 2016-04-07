@@ -1,7 +1,7 @@
 {
-  "name": "svg-react",
+  "name": "react-contenteditable-test",
   "version": "1.0.0",
-  "description": "React based svg-editor",
+  "description": "React based contenteditable-editor",
   "main": "index.js",
   "scripts": {
     "start": "node dev-server.js",
