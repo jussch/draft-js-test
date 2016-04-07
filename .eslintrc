@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb/base",
+  "plugins": [
+    "react"
+  ],
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "rules": {
+    "no-use-before-define": "off",
+    "func-names": "off",
+    "no-param-reassign": "off",
+    "no-unused-expressions": "off",
+    "eqeqeq": [2, "allow-null"]
+  },
+  "env": {
+    "mocha": true,
+    "node": true,
+    "browser": true
+  }
+}
